@@ -1,0 +1,22 @@
+package capacitacion;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author liset carolina
+ */
+public class Capacitacion {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese los grados Celsius:");
+        int gradosc1 = sc.nextInt();
+          double resultado = ( (gradosc1 * 9/5)   + 32);
+          System.out.println("Los grados celsius equivalen a :"+resultado );
+    }
+    
+}
